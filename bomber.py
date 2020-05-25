@@ -16,7 +16,7 @@ try:
 except ImportError:
     print('[!] Error: some dependencies are not installed')
     print('[i] Type \'pip install -r requirements.txt\' to install all required packages')
-    print('[i] If the last command didn't work, please use this command instead:')
+    print('[i] If the last command didn\'t work, please use this command instead:')
     print('[i] python3  -m pip install requirements.txt')
     exit()
 
