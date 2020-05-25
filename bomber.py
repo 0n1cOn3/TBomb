@@ -15,7 +15,9 @@ try:
     import requests
 except ImportError:
     print('[!] Error: some dependencies are not installed')
-    print('Type \'pip install -r requirements.txt\' to install all required packages')
+    print('[i] Type \'pip install -r requirements.txt\' to install all required packages')
+    print('[i] If the last command didn't work, please use this command instead:')
+    print('[i] python3  -m pip install requirements.txt
     exit()
 
 colors=['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;34m','\033[1;35m','\033[1;36m']
